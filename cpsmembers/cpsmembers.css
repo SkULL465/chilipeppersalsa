@@ -25,6 +25,7 @@ body {
 .topbuttons {
     display:flex;
     gap:10px;
+    color:black;
 }
 .button {
     background: linear-gradient(to top right, #b22222, #c0392b, #ff5733);

@@ -3,7 +3,7 @@ body {
 }
 #title {
     font-family:'abril fatface', impact, serif;
-    font-size: clamp(20px, 5vw, 48px);
+    font-size: clamp(30px, 5vw, 48px);
     font-weight:200;
     color: #ff6f61;
     text-shadow: 2px -2px 4px black;
@@ -54,10 +54,10 @@ body {
     width: clamp(100px, 25vw, 1000px) ;
 }
 .member {
-    font-family: pacifico, 'brush script mt', cursive;
+    font-family: quicksand, 'brush script mt', cursive;
     font-weight:200;
     color: #f7b267;
-    font-size: clamp(10px, 4vw, 35px);
+    font-size: clamp(20px, 4vw, 35px);
 }
 .memberinfo {
     display:flex;

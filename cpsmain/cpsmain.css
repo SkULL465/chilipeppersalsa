@@ -1,0 +1,62 @@
+body {
+    background-color: #2d0b1e;
+}
+#title {
+    font-family:'abril fatface', impact, serif;
+    font-size: clamp(20px, 5vw, 48px);
+    font-weight:200;
+    color: #ff6f61;
+    text-shadow: 2px -2px 4px black;
+}
+#topbar {
+    background: linear-gradient(to top right, #5c1a1b 30%, #d35400 100%);
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:9999;
+    display:flex;
+    align-items: center;
+    height: 90px;
+    justify-content: space-evenly;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.topbuttons {
+    display:flex;
+    gap:10px;
+}
+.button {
+    background: linear-gradient(to top right, #b22222, #c0392b, #ff5733);
+    border:2px solid black;
+    border-radius: 20px;
+    height:clamp(8px, 10vw, 80px);
+    padding:20px;
+    width:clamp(10px, 10vw, 100px);
+    font-family: garamond, serif;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    white-space:wrap;
+    font-size: clamp(2px, 2vw, 24px);
+    overflow:hidden;
+}
+.button:hover {
+    background: linear-gradient(to top right, rgb(105, 22, 22), #aa3427, #da4d2e);
+}
+.spacer {
+    position: relative;
+    top:90px;
+    z-index:1;
+}
+.text {
+    font-size: clamp(10px, 2vw, 20px);
+    font-family: quicksand, sans-serif;
+    color: #d8a47f;
+}
+.heading {
+    font-family: pacifico, 'brush script mt', cursive;
+    font-weight:200;
+    color: #f7b267;
+    font-size: clamp(10px, 4vw, 35px);
+}
